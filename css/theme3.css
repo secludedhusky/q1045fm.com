@@ -1,0 +1,66 @@
+/*==== Q1045 ====*/
+
+body {background:#22338a url(../images/bg_q104.jpg) repeat-x top left;}
+
+#row_station, #nav {background-image:url(../images/bg_station_q104.png);}
+
+#logo {background:transparent url(../images/logo_q104.png) no-repeat 24px 12px;}
+
+/*(BLUE)*/
+a, #onair .row1, .button .button_row2, h1, h1 span.linkall a:hover, #row_footer div a:hover, #row_copyright div a:hover, input:hover.button_smaller, input:hover.button_small
+{color:#4b5fd8;}
+h2, #row_footer
+{background-color:#4b5fd8;}
+
+/*(RED/ORANGE)*/
+#nav a:hover, #ecommbox a:hover.buywine
+{background-color:#ed3b33;}
+
+#ecommbox a:hover.buywine {border:1px solid #ed3b33;}
+
+/*(DARK BLUE)*/
+#headcaption, #ecommbox a.buywine {background-color:#303c86;}
+#row_footer div a:hover {color:#303c86;}
+
+/*(POLL)*/
+
+div.poll_result_a {height:30px;background-color:#ed1d23;text-align:right;border:1px solid #d0191f;}
+div.poll_result_b {height:30px;background-color:#970408;text-align:right;border:1px solid #7a0408;}
+
+
+table.mainResults     {width:400px; border:none;}
+table.mainResults tr td {border-left:0px;border-right:0px;border-top:1px solid #ccc;border-bottom:1px solid #ccc;}
+table.contentResults  {width:100%; border:none; margin:4px;}
+td.pollTitle          {font-size:18px; font-weight:bold;}
+table.pollResult      {width:100%; border:none;}
+td.pollResultAnswer   {font-size:12px; font-weight:bold; padding-bottom:4px; padding-top:4px;}
+td.pollVoteResults    {width:20%; font-size:12px;}
+td.pollVoteResultsPercent {width:80%;}
+td.voteBarContainer   {width:110px;} /* Contains the Percentage bar table (below) */
+table.voteResultPercentageBar  {width:102px; height:12px; border:1px solid #fff; background-color:#666;} /* % Bar Table */
+td.voteResultPercent {} /* Contains the % value as a number */
+img.pollIMG  {margin:1px;} /* The 1px wide image used to stretch and display a visual percentage */
+td.pollResultFooter   {border-bottom:1px dotted #fff; height:10px;} /* Bottom td used to diaply bottom border of a result */
+/*
+     FILE ARCHIVED ON 04:50:13 Feb 18, 2012 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:26:37 Feb 22, 2022.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 594.078
+  exclusion.robots: 440.661
+  exclusion.robots.policy: 440.649
+  xauthn.identify: 296.003
+  xauthn.chkprivs: 144.228
+  RedisCDXSource: 1.139
+  esindex: 0.022
+  LoadShardBlock: 133.198 (3)
+  PetaboxLoader3.datanode: 74.949 (4)
+  CDXLines.iter: 16.2 (3)
+  PetaboxLoader3.resolve: 97.978 (2)
+  load_resource: 86.026
+*/

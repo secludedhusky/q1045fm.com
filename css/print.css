@@ -1,0 +1,130 @@
+/* =RESET ||||||||||||||||||||||||||||||||*/
+
+/* ========================= RESET ========================= */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+
+.clear {clear:both;}
+.print {display:table;}
+.noprint {display:none;}
+
+/* =ID ||||||||||||||||||||||||||||||||||||*/
+
+#top_row, #column_left, #content_footer, #footer_row {display:none;}
+
+#column_right {float:left;width:1000px;margin:0px;}
+
+/* =STANDARD ||||||||||||||||||||||||||||||*/
+
+/*FONT Standard*/
+body, p, div, td {font:12px Tahoma, Verdana, Arial, sans-serif;color:#000;}
+
+a:link, a:visited, a:hover, a:active {color:#000;}
+a:hover {text-decoration:none;}
+
+body   {background:#fff;} 
+h1     {font-size:23px;font-weight:bold;margin-bottom:5px;color:#000;}
+h2     {font-size:19px;font-weight:bold;margin-bottom:5px;color:#000;}
+h3     {font-size:15px;font-weight:bold;margin-bottom:5px;color:#000;}
+p      {line-height:18px; margin:0px 0px 15px;}
+hr     {height:1px;border:0px solid #000;border-top-width:thin;}
+ul     {margin-left:40px;}
+strong, a strong, strong a {font-weight:bold;}
+em, em strong, strong em   {font-style:italic;}
+strong a em, strong em a   {font-weight:bold;font-style:italic;}
+
+/* Receipt Tables */
+
+/* Tables */
+
+.ecomm_page table {width:100%;border:none;margin-bottom:20px;}
+
+	.ecomm_page table tr td {padding:3px;border-bottom:1px solid #e6d1a3/*light*/;}
+	
+	.ecomm_page table tr.label td {font-weight:bold;border-bottom:1px solid #813d38/*dark*/;}
+	
+	 .ecomm_page table tr.table_total td {border-bottom:0px;border-top:2px solid #813d38/*dark*/;font-size:18px;font-weight:bold;}
+	 
+	 .ecomm_page table tr.table_subtotal td {border-bottom:0px;}
+
+.ecomm_page table.receipt_totals {border-top:2px solid #813d38/*dark*/;}
+
+	/*print only*/.ecomm_page table tr td {font-size:15px;}
+	
+	.ecomm_page table.receipt_totals tr td.nl {border:0px;}
+	.ecomm_page table.receipt_totals tr td.total {border-top:2px solid #813d38/*dark*/;border-bottom:0px;font-size:18px;}
+	
+/* Quick Widths */
+
+.w20  {width:20px;}  .w30  {width:30px;}  .w40  {width:40px;}  .w60  {width:60px;}  .w80  {width:80px;}
+.w100 {width:100px;} .w120 {width:120px;} .w140 {width:140px;} .w160 {width:160px;} .w180 {width:180px;}
+.w200 {width:200px;} .w220 {width:220px;} .w240 {width:240px;} .w260 {width:260px;} .w280 {width:280px;}
+.w300 {width:300px;} .w320 {width:320px;} .w340 {width:340px;} .w360 {width:360px;} .w380 {width:380px;}
+.w400 {width:400px;} .w420 {width:420px;} .w440 {width:440px;} .w460 {width:460px;} .w480 {width:480px;}
+.w500 {width:500px;} .w520 {width:520px;} .w540 {width:540px;} .w560 {width:560px;} .w580 {width:580px;}
+/*
+     FILE ARCHIVED ON 04:47:36 Feb 18, 2012 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:26:40 Feb 22, 2022.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 390.171
+  exclusion.robots: 177.796
+  exclusion.robots.policy: 177.787
+  xauthn.identify: 115.661
+  xauthn.chkprivs: 61.952
+  cdx.remote: 0.058
+  esindex: 0.008
+  LoadShardBlock: 181.564 (3)
+  PetaboxLoader3.datanode: 130.165 (4)
+  CDXLines.iter: 15.152 (3)
+  load_resource: 891.626
+  PetaboxLoader3.resolve: 866.556
+*/
